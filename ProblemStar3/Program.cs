@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 
 namespace ProblemStar2
 {
@@ -14,10 +13,11 @@ namespace ProblemStar2
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(" ");
-                }
-                for (int j = 0; j < i; j++)
+                    if (n == 0)
+                    { Console.Write("*"); }
+                    else Console.Write("");
                     Console.Write("*");
+                }
                 Console.WriteLine();
             }
         }
