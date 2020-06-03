@@ -13,10 +13,14 @@ namespace ProblemStar2
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (n == 0)
-                    { Console.Write("*"); }
-                    else Console.Write("");
-                    Console.Write("*");
+                    if (i == 0 && j == 3) 
+                    {
+                        Console.WriteLine();
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
                 }
                 Console.WriteLine();
             }
