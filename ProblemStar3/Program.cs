@@ -13,9 +13,10 @@ namespace ProblemStar2
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (i == 0 && j == 3) 
+                    if (i < 4 && j < 4 - i)
                     {
-                        Console.WriteLine();
+
+                        Console.Write(" ");
                     }
                     else
                     {
@@ -31,3 +32,4 @@ namespace ProblemStar2
 
 하지만, 오른쪽을 기준으로 정렬한 별(예제 참고)을 출력하시오.
 */
+
