@@ -8,7 +8,7 @@
 */
 using System;
 
-public class Program
+public class Problem1000
 {
     public static void Main()
     {
