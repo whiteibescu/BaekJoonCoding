@@ -3,14 +3,12 @@ using System.Globalization;
 
 namespace ProblemStar1
 {
-    class Program
+    class Star
     {
         static void Main(string[] args)
         {
             Console.WriteLine("별 출력 횟수를 입력해주세요.");
             int n = int.Parse(Console.ReadLine());
-
-
 
             for (int i = 0; i < n; i++)
             {
@@ -22,7 +20,6 @@ namespace ProblemStar1
                 }
                 Console.WriteLine();
             }
-            
         }
     }
 }
